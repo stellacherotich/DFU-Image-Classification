@@ -1,4 +1,4 @@
-# DFU-Image-Classification
+# DFU Image Classification
 Diabetes Foot Ulcer Image Classification using Deep Learning Methods
 ![dfu-1573641113](https://github.com/stellacherotich/DFU-Image-Classification/assets/114439636/47d31fbf-40d3-49b6-8bac-2147c879349f)
 ## Introduction
@@ -10,15 +10,11 @@ Both of these types can result in complications such as heart disease, nerve imp
 
 **Diabetic Foot Ulcers**(DFUs) are a specific complication that can arise in people with diabetes. They are open sores or wounds that develop on the feet, most commonly on the bottom of the feet. DFUs are a result of multiple factors associated with diabetes, including poor circulation, nerve damage (neuropathy), and reduced immune function.
 
-DFUs can become serious if left *untreated*. They have the potential to lead to infections that can spread to the bone or bloodstream, potentially resulting in the need for <i>**amputation**</i>.
-
+DFUs can become serious if left *untreated*. They have the potential to lead to infections that can spread to the bone or bloodstream, potentially resulting in the need for amputation.
 ## Objectives
-The main objectives of this project are:
+The main objective of this project is:
 
-
-1. To build a machine learning model that will accurately identify whether a given image of a foot ulcer indicates a diabetic foot ulcer or not.
-
-2. To Develop a comprehensive classification system that can differentiate between various stages of diabetic foot ulcers, helping medical professionals to assess the severity and choose appropriate treatment strategies.
+- To build a machine learning model that will accurately identify whether a given image of a foot ulcer indicates a diabetic foot ulcer or not.
 
 #### **Success Metrics**
 The primary gauge of success was as follows:
@@ -27,9 +23,9 @@ The primary gauge of success was as follows:
 
 ## The Data
 The data was retrieved from [Kaggle](https://www.kaggle.com/datasets/laithjj/diabetic-foot-ulcer-dfu). This dataset contains a collection of images showcasing various stages of diabetic foot ulcers.
-There are three main folders that were generated in order to carry out the classification, these include:
+There are two main folders that were generated in order to carry out the classification, these include:
 
-- Training - This was taken from the Patches folder
+- Training - This was taken from the Patches Folder ; The images were separated into their respective classes. 
 
 - Test - This was generated through converting the original Test Set folder, so that all the images were in a uniform format.
 
@@ -42,11 +38,14 @@ There are three main folders that were generated in order to carry out the class
 By leveraging this dataset and applying deep learning techniques, the project aims to contribute to the early and accurate detection of diabetic foot ulcers, ultimately assisting in timely medical interventions and reducing the risk of severe complications.
 
 ## **Modeling**
-The models that were used include:
-1. Deeply Connected Neural Network - This was the baseline model.
-2. CNN
-3. Tuned CNNs
-4. Dropout L2 Regularization
+The chosen models for this project encompass a range of techniques to explore and optimize the performance:
+
+1. **Deeply Connected Neural Network (Baseline Model)**: This served as the initial model, forming the foundation for comparison against more advanced approaches.
+
+2. **Convolutional Neural Network (CNN)**: Introducing convolutional layers, this model is well-suited for image data, as it can identify spatial patterns and features within the images.
+
+3. **Tuned CNNs**: These models likely involve variations of the CNN architecture that have been fine-tuned to achieve better accuracy and generalization on the specific task.
+
    
 ## **Model Evaluation**
 
@@ -62,11 +61,19 @@ Analyzing the performance of the Test data, the following conclusions can be dra
 The evaluation results indicate that the model achieved a test accuracy of approximately 91.41%, showcasing its ability to accurately identify diabetic foot ulcers within the test images. The corresponding test loss, measuring around 0.928, reflects the alignment between the model's predictions and the actual outcomes. These findings emphasize the model's potential as a valuable tool for proficiently detecting diabetic foot ulcers, thereby offering significant relevance in medical contexts and patient management.
 
 ## **Recommendations**
-1. Getting more access to data -- The data might be biased towards a certain community therefore in order to improve model performance more data should be collected to optimise the model's performance even more.
+1. **Enhancing Data Access** : It's important to consider the possibility of data bias towards specific communities. To further elevate model performance, a strategic approach involves collecting a more diverse dataset. This expansion not only fine-tunes the model's accuracy but also ensures its effectiveness across various demographic groups.
 
-2. Increase awareness on the early signs of DFU, that way early treatment can be provided therefore avoiding a situation where an individual has to get their limb(s) amputated.
+2. **Transfer Learning** : This approach involves harnessing the knowledge embedded within pre-trained neural network architectures, which have been honed on expansive datasets such as ImageNet. By tweaking these insights to suit the needs of the DFU classification, the model's abilities are elevated to accurately categorize Diabetic Foot Ulcers.
 
-3. Providing counseling/therapy to individuals who already have DFU's ; this should help support them in their health journey, in addition, their family should also receive the same support so that they can effectively cater to the needs of the diabetic patient.
+3. **Elevating Awareness of Early DFU Signs**: Giving priority to educating individuals about the initial signs of Diabetic Foot Ulcers (DFU) can have a profound impact on the overall outcomes. When people are informed about the early symptoms of DFU, they are better equipped to take action promptly. This timely response can play a pivotal role in preventing situations where the only option left might be amputation. By spreading awareness about these early indicators, they can be more empowered to seek medical attention, receive appropriate care, and potentially avoid more severe complications associated with DFUs.
+
+4. **Holistic Support for DFU Patients**: Offering counseling and therapy to individuals grappling with DFUs marks a substantial step. This support system not only aids them in their health journey but also contributes to their emotional well-being. Extending this assistance to their families empowers them to provide effective care, fostering a comprehensive approach to diabetic patient well-being.
+
+## **Next Steps**
+
+To further amplify the impact of this project, the next step involves developing a user-friendly web application. This app will serve as an accessible platform to provide valuable insights and assistance related to Diabetic Foot Ulcers (DFUs). This would be of benefit to healthcare professionals seeking comprehensive resources, and anyone seeking to enhance their understanding of DFUs and their management.
+
+---
 
 ### **References**
 1. Alzubaidi, L., Fadhel, M. A., Oleiwi, S. R., Al-Shamma, O., & Zhang, J. (2020). DFU_QUTNet: Diabetic foot ulcer classification using novel deep convolutional neural network. Multimedia Tools and Applications, 79(21), 15655-15677.
