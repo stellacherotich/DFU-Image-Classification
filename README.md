@@ -33,6 +33,12 @@ There are three main folders that were generated in order to carry out the class
 
 - Test - This was generated through converting the original Test Set folder, so that all the images were in a uniform format.
 
+### Distribution of the training dataset
+![Distribution of Training Dataset](https://github.com/stellacherotich/DFU-Image-Classification/assets/114439636/1c8bb40a-0eb9-458f-b18f-53952b9c9d62)
+
+### Distribution of the Test dataset
+![Test Data Distribution](https://github.com/stellacherotich/DFU-Image-Classification/assets/114439636/a6d65ba8-ae52-4ea6-a2c4-9e6b732c7ccb)
+
 By leveraging this dataset and applying deep learning techniques, the project aims to contribute to the early and accurate detection of diabetic foot ulcers, ultimately assisting in timely medical interventions and reducing the risk of severe complications.
 
 ## Modeling
@@ -43,6 +49,10 @@ The models that were used include:
 4. Dropout L2 Regularization
    
 ## Model Evaluation
+
+![image](https://github.com/stellacherotich/DFU-Image-Classification/assets/114439636/c50d11a6-e151-4d6d-bac3-b7842d021a67)
+
+
 This table highlights how all three models performed against each other. The baseline model did not perform as well as the CNN and Tuned CNN model. <br>
 Therefore, based on the accuracy and loss score, the best performing model was the **Tuned CNN** model.
 
