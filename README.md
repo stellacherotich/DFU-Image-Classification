@@ -1,5 +1,6 @@
 # DFU-Image-Classification
 Diabetes Foot Ulcer Image Classification using Deep Learning Methods
+![dfu-1573641113](https://github.com/stellacherotich/DFU-Image-Classification/assets/114439636/47d31fbf-40d3-49b6-8bac-2147c879349f)
 ## Introduction
 Diabetes is a chronic medical condition affecting blood sugar control.<br>There are two main types of diabetes:
   1. Type 1 Diabetes - linked to autoimmune factors
