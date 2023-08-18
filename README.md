@@ -35,6 +35,21 @@ There are three main folders that were generated in order to carry out the class
 
 By leveraging this dataset and applying deep learning techniques, the project aims to contribute to the early and accurate detection of diabetic foot ulcers, ultimately assisting in timely medical interventions and reducing the risk of severe complications.
 ## Modeling
+The models that were used include:
+1. Deeply Connected Neural Network - This was the baseline model.
+2. CNN
+3. Tuned CNNs
+4. Dropout L2 Regularization
 ## Model Evaluation
+This table highlights how all three models performed against each other. The baseline model did not perform as well as the CNN and Tuned CNN model. <br>
+Therefore, based on the accuracy and loss score, the best performing model was the **Tuned CNN** model.
 ## Conclusion
+Analyzing the performance of the Test data, the following conclusions can be drawn:
+
+The evaluation results indicate that the model achieved a test accuracy of approximately 91.41%, showcasing its ability to accurately identify diabetic foot ulcers within the test images. The corresponding test loss, measuring around 0.928, reflects the alignment between the model's predictions and the actual outcomes. These findings emphasize the model's potential as a valuable tool for proficiently detecting diabetic foot ulcers, thereby offering significant relevance in medical contexts and patient management.
 ## Recommendations
+1. Getting more access to data -- The data might be biased towards a certain community therefore in order to improve model performance more data should be collected to optimise the model's performance even more.
+
+2. Increase awareness on the early signs of DFU, that way early treatment can be provided therefore avoiding a situation where an individual has to get their limb(s) amputated.
+
+3. Providing counseling/therapy to individuals who already have DFU's ; this should help support them in their health journey, in addition, their family should also receive the same support so that they can effectively cater to the needs of the diabetic patient.
